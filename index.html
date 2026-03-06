@@ -11,7 +11,7 @@
     <title>Nexora</title>
   </head>
   <body class="bg-gray-50">
-    <header class="bg-white shadow-lg fixed w-full">
+    <header class="bg-white shadow-lg fixed w-full z-50">
       <div class="mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex justify-between items-center h-16">
           <!-- Logo -->
@@ -82,107 +82,228 @@
     </header>
 
     <!-- Hero Section -->
-    <main class="w-[90%] mx-auto h-screen flex items-center pt-24">
-      <div class="grid grid-cols-12 gap-y-8 md:gap-x-8 items-center max-h-full">
-        <!-- Text Content -->
-        <div class="col-span-12 lg:col-span-8 xl:col-span-6 space-y-8 p-2">
-          <h1
-            class="text-4xl md:text-5xl font-bold text-gray-900"
-            style="line-height: 1.2"
-          >
-            We Help Brands <span class="text-blue-600">Grow Online</span>
-          </h1>
-
-          <p class="text-gray-600 text-md xl:text-lg">
-            Nexora delivers modern digital solutions that help businesses build
-            strong online presence, attract more customers, and scale faster.
-          </p>
-
-          <!-- Highlights -->
-          <div
-            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-y-2 text-sm text-gray-700"
-          >
-            <div class="flex items-center gap-2">
-              <span class="text-blue-500"
-                ><i class="fa-solid fa-check"></i
-              ></span>
-              <span>8+ Years Experience</span>
-            </div>
-
-            <div class="flex items-center gap-2">
-              <span class="text-blue-500"
-                ><i class="fa-solid fa-check"></i
-              ></span>
-              <span>300+ Successful Projects</span>
-            </div>
-
-            <div class="flex items-center gap-2">
-              <span class="text-blue-500"
-                ><i class="fa-solid fa-check"></i
-              ></span>
-              <span>Creative Digital Team</span>
-            </div>
-          </div>
-
-          <!-- Buttons -->
-          <div class="flex flex-wrap gap-2 md:gap-4">
-            <button
-              class="bg-blue-600 text-white text:md lg:text-xl font-semibold px-3 md:px-6 py-3 rounded-lg hover:bg-blue-700 transition"
-            >
-              Start Your Project
-            </button>
-
-            <button
-              class="flex gap-3 items-center border-2 text-sm lg:text-lg text-gray-500 border-gray-300 px-3 md:px-6 py-3 rounded-lg hover:border-blue-500 hover:text-blue-500 transition"
-            >
-              <i class="fa-solid fa-play"></i> View Our Work
-            </button>
-          </div>
-        </div>
-
-        <!-- Hero Visual -->
+    <main class="bg-gradient-to-br from-blue-50 via-white to-purple-50">
+      <div class="w-[90%] mx-auto h-screen flex items-center pt-24">
         <div
-          class="col-span-12 lg:col-span-4 xl:col-span-6 flex-1 relative w-full px-2"
+          class="grid grid-cols-12 gap-y-8 md:gap-x-8 items-center max-h-full"
         >
-          <div
-            class="w-full h-40 lg:h-96 bg-gradient-to-br from-blue-400 to-purple-400 rounded-3xl shadow-2xl overflow-hidden relative"
-          >
-            <!-- Animated blurred circles -->
-            <div
-              class="absolute top-3 md:top-6 lg:top-6 xl:top-10 left-3 md:left-8 lg:right-6 xl:right-10 lg:left-auto w-16 h-16 lg:w-16 lg:h-16 xl:w-20 xl:h-20 bg-white/20 rounded-full backdrop-blur animate-float"
-            ></div>
-            <div
-              class="absolute bottom-3 md:bottom-6 right-3 md:right-8 lg:bottom-6 lg:left-6 xl:bottom-10 xl:left-10 w-20 h-20 lg:w-28 lg:h-28 xl:w-32 xl:h-32 bg-white/20 rounded-full backdrop-blur animate-float"
-            ></div>
-            <div
-              class="absolute top-1/2 left-1/2 w-24 h-24 text-6xl xl:text-8xl text-white/50 transform -translate-x-1/2 -translate-y-1/2 flex justify-center items-center"
+          <!-- Text Content -->
+          <div class="col-span-12 lg:col-span-8 xl:col-span-6 space-y-8 p-2">
+            <h1
+              class="text-4xl md:text-5xl font-bold text-gray-900"
+              style="line-height: 1.2"
             >
-              <i class="fa-solid fa-chart-line"></i>
+              We Help Brands <span class="text-blue-600">Grow Online</span>
+            </h1>
+
+            <p class="text-gray-600 text-md xl:text-lg">
+              Nexora delivers modern digital solutions that help businesses
+              build strong online presence, attract more customers, and scale
+              faster.
+            </p>
+
+            <!-- Highlights -->
+            <div
+              class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-y-2 text-sm text-gray-700"
+            >
+              <div class="flex items-center gap-2">
+                <span class="text-blue-500"
+                  ><i class="fa-solid fa-check"></i
+                ></span>
+                <span>8+ Years Experience</span>
+              </div>
+
+              <div class="flex items-center gap-2">
+                <span class="text-blue-500"
+                  ><i class="fa-solid fa-check"></i
+                ></span>
+                <span>300+ Successful Projects</span>
+              </div>
+
+              <div class="flex items-center gap-2">
+                <span class="text-blue-500"
+                  ><i class="fa-solid fa-check"></i
+                ></span>
+                <span>Creative Digital Team</span>
+              </div>
+            </div>
+
+            <!-- Buttons -->
+            <div class="flex flex-wrap gap-2 md:gap-4">
+              <button
+                class="bg-blue-600 text-white text:md lg:text-xl font-semibold px-3 md:px-6 py-3 rounded-lg hover:bg-blue-700 transition"
+              >
+                Start Your Project
+              </button>
+
+              <button
+                class="flex gap-3 items-center border-2 text-sm lg:text-lg text-gray-500 border-gray-300 px-3 md:px-6 py-3 rounded-lg hover:border-blue-500 hover:text-blue-500 transition"
+              >
+                <i class="fa-solid fa-play"></i> View Our Work
+              </button>
             </div>
           </div>
 
-          <!-- Floating Card -->
+          <!-- Hero Visual -->
           <div
-            class="absolute -left-2 -bottom-6 lg:-left-6 bg-white p-3 lg:p-4 rounded-3xl shadow-xl"
+            class="col-span-12 lg:col-span-4 xl:col-span-6 flex-1 relative w-full px-2"
           >
-            <div class="flex items-center gap-3">
+            <div
+              class="w-full h-40 lg:h-96 bg-gradient-to-br from-blue-400 to-purple-400 rounded-3xl shadow-2xl overflow-hidden relative"
+            >
+              <!-- Animated blurred circles -->
               <div
-                class="w-8 h-8 lg:w-12 lg:h-12 bg-blue-100 rounded-full flex items-center justify-center"
+                class="absolute top-3 md:top-6 lg:top-6 xl:top-10 left-3 md:left-8 lg:right-6 xl:right-10 lg:left-auto w-16 h-16 lg:w-16 lg:h-16 xl:w-20 xl:h-20 bg-white/20 rounded-full backdrop-blur animate-float"
+              ></div>
+              <div
+                class="absolute bottom-3 md:bottom-6 right-3 md:right-8 lg:bottom-6 lg:left-6 xl:bottom-10 xl:left-10 w-20 h-20 lg:w-28 lg:h-28 xl:w-32 xl:h-32 bg-white/20 rounded-full backdrop-blur animate-float"
+              ></div>
+              <div
+                class="absolute top-1/2 left-1/2 w-24 h-24 text-6xl xl:text-8xl text-white/50 transform -translate-x-1/2 -translate-y-1/2 flex justify-center items-center"
               >
-                <i class="fas fa-users text-blue-600 text-sm lg:text-xl"></i>
-              </div>
-              <div>
-                <p class="text-sm font-semibold text-gray-500">Happy Clients</p>
-                <p class="text-md lg:text-2xl font-bold text-gray-800">+500</p>
+                <i class="fa-solid fa-chart-line"></i>
               </div>
             </div>
+
+            <!-- Floating Card -->
+            <div
+              class="absolute -left-2 -bottom-6 lg:-left-6 bg-white p-3 lg:p-4 rounded-3xl shadow-xl"
+            >
+              <div class="flex items-center gap-3">
+                <div
+                  class="w-8 h-8 lg:w-12 lg:h-12 bg-blue-100 rounded-full flex items-center justify-center"
+                >
+                  <i class="fas fa-users text-blue-600 text-sm lg:text-xl"></i>
+                </div>
+                <div>
+                  <p class="text-sm font-semibold text-gray-500">
+                    Happy Clients
+                  </p>
+                  <p class="text-md lg:text-2xl font-bold text-gray-800">
+                    +500
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- Floating Card -->
           </div>
-          <!-- Floating Card -->
+          <!-- Hero Visual -->
         </div>
-        <!-- Hero Visual -->
+        <!-- Grid -->
       </div>
-      <!-- Grid -->
     </main>
+
+    <section class="flex flex-col gap-16 my-16">
+      <div class="flex flex-col items-center gap-4">
+        <h2 class="text-2xl sm:text-4xl font-bold">Our Integrated Services</h2>
+        <p class="text-md sm:text-xl text-gray-500 max-w-[80%] text-center">
+          We offer a comprehensive range of digital solutions to grow your
+          business.
+        </p>
+        <div class="w-[100px] h-[4px] bg-blue-600"></div>
+      </div>
+      <div class="w-[80%] sm:w-[60%] md:w-[90%] mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7">
+          <!-- card -->
+          <div
+            class="flex flex-col rounded-3xl gap-7 p-7 border border-gray-200 hover:border-blue-700 group hover:shadow-2xl transition duration-400"
+          >
+            <div
+              class="flex size-16 bg-blue-100 group-hover:bg-blue-700 text-blue-700 group-hover:text-white rounded-xl justify-center items-center"
+            >
+              <i class="fa-solid fa-chart-line text-3xl"></i>
+            </div>
+            <div class="flex flex-col gap-4">
+              <h2 class="font-bold text-xl sx:text-2xl">Search Engine Optimization</h2>
+              <p class="text-gray-600">
+                We ensure your website appears on the first pages of search
+                engines and increases qualified visitors.
+              </p>
+              <ul class="text-gray-600">
+                <li class="flex justify-start items-center gap-2 leading-loose">
+                  <i class="fa-solid fa-check text-blue-700"></i>Keyword
+                  Analysis
+                </li>
+                <li class="flex justify-start items-center gap-2 leading-loose">
+                  <i class="fa-solid fa-check text-blue-700"></i>Content
+                  Optimization
+                </li>
+                <li class="flex justify-start items-center gap-2 leading-loose">
+                  <i class="fa-solid fa-check text-blue-700"></i>Link Building
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- card -->
+
+          <!-- card -->
+          <div
+            class="flex flex-col rounded-3xl gap-7 p-7 border border-gray-200 hover:border-purple-700 group hover:shadow-2xl transition duration-400"
+          >
+            <div
+              class="flex size-16 bg-purple-100 group-hover:bg-purple-700 text-purple-700 group-hover:text-white rounded-xl justify-center items-center"
+            >
+              <i class="fa-brands fa-facebook text-3xl"></i>
+            </div>
+            <div class="flex flex-col gap-4">
+              <h2 class="font-bold text-xl sx:text-2xl">Social Media Marketing</h2>
+              <p class="text-gray-600">
+                We manage your advertising campaigns on Facebook and Instagram
+                with high professionalism.
+              </p>
+              <ul class="text-gray-600">
+                <li class="flex justify-start items-center gap-2 leading-loose">
+                  <i class="fa-solid fa-check text-purple-700"></i>Precise
+                  Targeting
+                </li>
+                <li class="flex justify-start items-center gap-2 leading-loose">
+                  <i class="fa-solid fa-check text-purple-700"></i>Results
+                  Analysis
+                </li>
+                <li class="flex justify-start items-center gap-2 leading-loose">
+                  <i class="fa-solid fa-check text-purple-700"></i>Campaign
+                  Optimization
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- card -->
+
+          <!-- card -->
+          <div
+            class="flex flex-col rounded-3xl gap-7 p-7 border border-gray-200 hover:border-green-700 group transition duration-400 hover:shadow-2xl"
+          >
+            <div
+              class="flex size-16 bg-green-100 group-hover:bg-green-700 text-green-700 group-hover:text-white rounded-xl justify-center items-center"
+            >
+              <i class="fa-solid fa-code text-3xl"></i>
+            </div>
+            <div class="flex flex-col gap-4">
+              <h2 class="font-bold text-xl sx:text-2xl">Website Design & Development</h2>
+              <p class="text-gray-600">
+                We design professional websites that are compatible with all
+                devices.
+              </p>
+              <ul class="text-gray-600">
+                <li class="flex justify-start items-center gap-2 leading-loose">
+                  <i class="fa-solid fa-check text-green-700"></i>Responsive
+                  Design
+                </li>
+                <li class="flex justify-start items-center gap-2 leading-loose">
+                  <i class="fa-solid fa-check text-green-700"></i>High Speed
+                </li>
+                <li class="flex justify-start items-center gap-2 leading-loose">
+                  <i class="fa-solid fa-check text-green-700"></i>Easy
+                  Management
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- card -->
+        </div>
+      </div>
+      <!-- container -->
+    </section>
 
     <script>
       const menuBtn = document.getElementById("menuBtn");
